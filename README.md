@@ -3,6 +3,12 @@
 
 # Syntax
 
+## Operators
+### Assignment Operators
+
+### Comparison Operators
+
+
 ## Variable Assignment
 ```
 int Myvariable is 5
@@ -42,6 +48,7 @@ while i e 5 do
 end
 ```
 It continues looping until i is not equal to 5.
+
 
 
 > “A simple language that compiles to pure Assembly — Simbly brilliant.”
