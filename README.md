@@ -3,7 +3,7 @@
 
 # Syntax
 
-## Variable assignment
+## Variable Assignment
 ```
 int Myvariable is 5
 ```
