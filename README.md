@@ -22,11 +22,11 @@
   // name = Gutay
   ```
 ### Comparison Operators
-  `g` : Greater '>'\n
-  `s` : Smaller '<'
-  `ge`: Greater and Equel '>='
-  `se`: Smaller and Equel '<='
-  `e` : Equel '='
+  - `g` : Greater '>'
+  - `s` : Smaller '<'
+  - `ge`: Greater and Equel '>='
+  - `se`: Smaller and Equel '<='
+  - `e` : Equel '='
 
 ## Variable Assignment
   ```
