@@ -24,17 +24,19 @@
 ### Comparison Operators
   - `g` : Greater '>'
   - `s` : Smaller '<'
-  - `ge`: Greater and Equel '>='
-  - `se`: Smaller and Equel '<='
+  - `ge`: Greater or Equel '>='
+  - `se`: Smaller or Equel '<='
   - `e` : Equel '='
 
 ## Variable Assignment
   ```
   int Myvariable is 5
   ```
+  
   ```
   int mylist are 0,1,2,3,4
   ```
+  
   ```
   Char mystring are "Im using Simbly!"
   ```
@@ -68,7 +70,23 @@
   ```
   It continues looping until i is not equal to 5.
 
-
+## Functions
+### Without Parameters
+  ```
+  float func pi do
+    return 3.14
+  end
+  ```
+### With Parameters and Overloading 
+  ```
+  int func sum(int a, int b) do
+    return a add b
+  end
+  
+  float func sum(float a, float b) do
+    return a add b
+  end
+  ```
 
 > “A simple language that compiles to pure Assembly — Simbly brilliant.”
  
