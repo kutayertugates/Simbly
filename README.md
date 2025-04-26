@@ -5,18 +5,28 @@
 
 ## Operators
 ### Assignment Operators
-  `is` : For assign non-array data
+  `is`  : For assign non-array data
   ```
-  int x = 5
-  char sex = 'F'
+  int x is 5
+  char sex is 'F'
   ```
   `are` : For assign array data
   ```
   int list are 1, 2, 3, 4, 5
   char name are "Kutay"
   ```
+  `in`  : Accessing array elements
+  ```
+  char name are "Kutay"
+  0 in name is 'G'
+  // name = Gutay
+  ```
 ### Comparison Operators
-
+  `g` : Greater '>'
+  `s` : Smaller '<'
+  `ge`: Greater and Equel '>='
+  `se`: Smaller and Equel '<='
+  `e` : Equel '='
 
 ## Variable Assignment
   ```
