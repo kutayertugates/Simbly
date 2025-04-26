@@ -4,6 +4,11 @@
 # Syntax
 
 ## Operators
+### Mathematical Operators
+  - `add`: Sum 2 numeric values
+  - `sub`: Subtract 2 numeric values
+  - `mul`: Multiplication 2 numeric values
+  - `div`: Divide 2 numeric values
 ### Assignment Operators
   `is`  : For assign non-array data
   ```
@@ -87,6 +92,17 @@
     return a add b
   end
   ```
-
+## Class
+## Basix Class
+  ```
+  class String do
+    int size
+    String do end
+    -String do end
+    int func size do
+      return this.size
+    end
+  end
+### Generic Class
 > “A simple language that compiles to pure Assembly — Simbly brilliant.”
  
