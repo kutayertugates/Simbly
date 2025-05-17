@@ -103,6 +103,7 @@
       return this.size
     end
   end
+  ```
 ### Generic Class
 > “A simple language that compiles to pure Assembly — Simbly brilliant.”
  
