@@ -108,7 +108,15 @@
 ## Imports
 ### Include Library with `from`
   ```
-  from <path-with-dot>.<namespaces>
+  from <path-with-dot>.<namespaces> import <class-or-function>
+  ```
+  Example:
+  ```
+  from stdlib.io import print, input
+  ```
+### Include Library without `from`
+  ```
+  import <path-with-dot>.<namespaces>.<class-or-function>
   ```
   Example:
   ```
