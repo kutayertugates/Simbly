@@ -17,7 +17,7 @@
   ```
   `are` : For assign array data
   ```
-  int list are 1, 2, 3, 4, 5
+  int myList are 1, 2, 3, 4, 5
   char name are "Kutay"
   ```
   `in`  : Accessing array elements
@@ -35,21 +35,21 @@
 
 ## Variable Assignment
   ```
-  int Myvariable is 5
+  int myVariable is 5
   ```
   
   ```
-  int mylist are 0,1,2,3,4
+  int myList are 0,1,2,3,4
   ```
   
   ```
-  Char mystring are "Im using Simbly!"
+  char myString are "Im using Simbly!"
   ```
 
 ## Accessing Array
   ```
   int mylist are 0,1,2,3,4
-  out(2 in mylist)
+  print(2 in mylist)
   ```
   Accessing second element in array and print consolr
 
@@ -78,7 +78,7 @@
 ## Functions
 ### Without Parameters
   ```
-  float func pi do
+  float func pi() do
     return 3.14
   end
   ```
@@ -93,17 +93,27 @@
   end
   ```
 ## Class
-## Basix Class
+## Basic Class
   ```
-  class String do
+  class Animal do
     int size
-    String do end
-    -String do end
-    int func size do
+    Animal do end
+    -Animal do end
+    int func get_size do
       return this.size
     end
   end
   ```
-### Generic Class
+
+## Imports
+### Include Library with `from`
+  ```
+  from <path-with-dot>.<namespaces>
+  ```
+  Example:
+  ```
+  from stdlib.io import print, input
+  ```
+
 > “A simple language that compiles to pure Assembly — Simbly brilliant.”
  
