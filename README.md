@@ -14,6 +14,7 @@
   ```
   int x is 5
   char sex is 'F'
+  char ptr addrsex is ref sex
   ```
   `are` : For assign array data
   ```
@@ -23,7 +24,7 @@
   `in`  : Accessing array elements
   ```
   char name are "Kutay"
-  0 in name is 'G'
+  index 0 in name is 'G'
   // name = Gutay
   ```
 ### Comparison Operators
@@ -34,16 +35,14 @@
   - `e` : Equel '='
 
 ## Variable Assignment
+  General Rules:
+  `<type> <ptr?> <name> is/are <value>`
   ```
   int myVariable is 5
-  ```
-  
-  ```
+  char ptr message is "Im Using Simbly!"
   int myList are 0,1,2,3,4
-  ```
-  
-  ```
   char myString are "Im using Simbly!"
+  char ptr users are "Kutay", "Ertug", "Ates"
   ```
 
 ## Accessing Array
@@ -93,16 +92,32 @@
   end
   ```
 ## Class
-## Basic Class
+### Basic Class
   ```
   class Animal do
-    int size
-    Animal do end
-    -Animal do end
-    int func get_size do
-      return this.size
-    end
+    public:
+      int size
+      Animal() do end
+      -Animal() do end
+      int func get_size() do
+        return this.size
+      end
   end
+  ```
+### Generic & Overloading Class
+  ```
+  generic T
+  class Vector do
+    public:
+      T ptr array
+      int size
+      Vector() do end
+      void append(T element) do
+        index this.size in array is element
+      T get(int ind) do
+        return index ind in this.array
+      end
+      -Vector() do end
   ```
 
 ## Imports
