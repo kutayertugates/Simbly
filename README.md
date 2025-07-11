@@ -36,7 +36,7 @@
 
 ## Variable Assignment
   General Rules:
-  `<type> <ref?> <name> is/are <value>`
+  `<type> <ref?> <name> is/are <expression>`
   ```
   int myVariable is 5
   char ref message is "Im Using Simbly!"
