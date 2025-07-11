@@ -14,7 +14,7 @@
   ```
   int x is 5
   char sex is 'F'
-  char ptr addrsex is ref sex
+  char ref addrsex is ref sex
   ```
   `are` : For assign array data
   ```
@@ -36,13 +36,13 @@
 
 ## Variable Assignment
   General Rules:
-  `<type> <ptr?> <name> is/are <value>`
+  `<type> <ref?> <name> is/are <value>`
   ```
   int myVariable is 5
-  char ptr message is "Im Using Simbly!"
+  char ref message is "Im Using Simbly!"
   int myList are 0,1,2,3,4
   char myString are "Im using Simbly!"
-  char ptr users are "Kutay", "Ertug", "Ates"
+  char ref users are "Kutay", "Ertug", "Ates"
   ```
 
 ## Accessing Array
