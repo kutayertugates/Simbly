@@ -14,7 +14,7 @@
   ```
   int x is 5
   char sex is 'F'
-  char ref addrsex is ref sex
+  char ref addrsex is deref sex
   ```
   `are` : For assign array data
   ```
