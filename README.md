@@ -28,11 +28,11 @@
   // name = Gutay
   ```
 ### Comparison Operators
-  - `g` : Greater '>'
-  - `s` : Smaller '<'
+  - `gt` : Greater '>'
+  - `st` : Smaller '<'
   - `ge`: Greater or Equel '>='
   - `se`: Smaller or Equel '<='
-  - `e` : Equel '='
+  - `eq` : Equel '='
 
 ## Variable Assignment
   General Rules:
