@@ -24,7 +24,7 @@
   `in`  : Accessing array elements
   ```
   char name are "Kutay"
-  index 0 in name is 'G'
+  name[0] is 'G'
   // name = Gutay
   ```
 ### Comparison Operators
