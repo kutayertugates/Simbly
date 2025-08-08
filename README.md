@@ -48,12 +48,12 @@
 ## Accessing Array
   ```
   int mylist are 0,1,2,3,4
-  print(2 in mylist)
+  print(mylist[0])
   ```
-  Accessing second element in array and print consolr
+  Accessing second element in array and print console
 
   ```
-  2 in mylist is 5
+  mylist[1] is 5
   ```
   Changes the second element in the array
 
