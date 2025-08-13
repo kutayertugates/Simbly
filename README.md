@@ -18,7 +18,7 @@
   ```
   `are` : For assign array data
   ```
-  int myList are 1, 2, 3, 4, 5
+  int myList dim 0,1 are 1, 2, 3, 4, 5
   char name are "Kutay"
   ```
   `in`  : Accessing array elements
