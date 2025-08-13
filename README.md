@@ -36,7 +36,7 @@
 
 ## Variable Assignment
   General Rules:
-  `<type> <ref?> <name> dim <dimension?> is/are <expression>`
+  `<type> <ref?> <name> dim? <dimension?> is/are <expression>`
   ```
   int myVariable is 5
   char ref message is "Im Using Simbly!"
@@ -47,7 +47,7 @@
 
 ## Accessing Array
   ```
-  int mylist are 0,1,2,3,4
+  int mylist dim 0,1 are 0,1,2,3,4
   print(mylist[0])
   ```
   Accessing second element in array and print console
