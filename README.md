@@ -36,7 +36,7 @@
 
 ## Variable Assignment
   General Rules:
-  `<type> <ref?> <name> is/are <expression>`
+  `<type> <ref?> <name> dim <dimension?> is/are <expression>`
   ```
   int myVariable is 5
   char ref message is "Im Using Simbly!"
